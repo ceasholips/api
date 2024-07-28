@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Feature List - Api Azfir</title>
+   <!-- Meta Description -->
+   <meta name="description" content="Rest api simple dengan html dan css" />
+   <meta name="keywords" content="Rest Api Azfir" />
+   <meta name="author" content="Rifza Pratama Putra" />
+   <meta property="og:site_name" content="Api Azfir" />
+   <meta property="og:image" content="https://telegra.ph/file/b06e791120efe736324d4.jpg">
+   <link rel="icon" href="https://telegra.ph/file/b06e791120efe736324d4.jpg" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/api.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+    <!----===== Font Awesome =====---->
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/27a95e6209.js" crossorigin="anonymous"></script>*
+ </head>
+<body>
+
+<div class="card">
+  <div class="table-title">
+    <h2>ALL FEATURE LIST</h2>
+  </div>
+
+  <div class="table-concept">
+    <input class="table-radio" type="radio" name="table_radio" id="table_radio_0" checked="checked"/>
+    <div class="table-display">List api Downloader</div>
+    <table>
+                 <thead class="text-primary">
+                   <tr>
+              		<th scope="col"> ICONS </th>								
+            		<th scope="col"> FEATURES </th>
+    	         	<th scope="col"> PARAM </th>
+    	         	<th scope="col"> INFORMATION </th>
+            		<th scope="col"> STATUS </th>	
+             		<th scope="col"> DEMO </th>
+                	<th scope="col"> ACTION </th>
+                   </tr>
+                </thead>
+                <tbody>
+                   <tr>
+                     <td><p style="font-size: 34px;" ><i class="fa fa-youtube fa-fw w3-margin-right"></i></p></td>
+                	 <td>Youtube-MP4 downloader</td>
+                     <td>link</td>
+                	 <td>Youtube download mp4</td>
+                     <td>Active✓</td>			
+                     <td><button type="button" onclick="sweet6()">Input</button></td>		
+                     <td>
+                 	   <span ><a type="button" class="text-success btn-sm btn-icon" href="api/youtubemp4/downloader?quality=480&link=https://youtu.be/tsQGCqzgO8c" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>								
+                 	 </td>
+                   </tr>
+                   <tr>
+                    <td><p style="font-size: 34px;" ><i class="fa fa-youtube fa-fw w3-margin-right"></i></p></td>
+                 	<td>Youtube-MP3 downloader </td>
+                	<td>link</td>
+                    <td>Youtube download mp3</td>
+                    <td>Active✓</td>			
+                    <td><button type="button" onclick="sweet1()">Input</button></td>		
+                    <td>
+             	        <span ><a type="button" class="text-success btn-sm btn-icon" href="api/youtubemp3/downloader?link=https://youtu.be/tsQGCqzgO8c" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>								
+                    </td>
+                  </tr>    
+                  <tr>
+                    <td><p style="font-size: 34px;" ><i class="fa fa-download fa-fw w3-margin-right"></i></p></td>
+                	<td>Downloader(multi)</td>
+                    <td>link</td>
+                	<td>Youtube, Facebook, Instagram, Tiktok, Pinterest, Twitter, BiliBili, SoundCloud, Imdb, Imgur, LinkedIn, dll....</td>
+                    <td>Active✓</td>	
+                    <td><button type="button" onclick="sweet2()">Input</button></td>				
+                    <td>
+                	   <span ><a type="button" class="text-success btn-sm btn-icon" href="api/multi/downloader?link=https://youtu.be/tsQGCqzgO8c" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>								
+                    </td>
+                   </tr>        
+                   <tr>
+                    <td><p style="font-size: 34px;" ><i class="fa fa-facebook fa-fw w3-margin-right"></i></p></td>
+                	<td>Facebook Downloader</td>
+                    <td>link</td>
+                	<td>Facebook download (json)</td>
+                    <td>Active✓</td>	
+                    <td><button type="button" onclick="sweet7()">Input</button></td>				
+                    <td>
+                	   <span ><a type="button" class="text-success btn-sm btn-icon" href="api/facebook/downloader?link=https://fb.watch/h5N4iLpejF/" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>								
+                    </td>
+                   </tr>                   
+                   <tr>
+                     <td><p style="font-size: 34px;" ><i class="bx bxl-tiktok w3-margin-right"></i></p></td>
+                	 <td>Tiktok downloader [V1]</td>
+                	 <td>link</td>
+                 	 <td>Download Tiktok with result json</td>
+                     <td>Active✓</td>		
+                     <td><button type="button" onclick="sweet3()">Input</button></td>			
+                     <td>
+                       <span ><a type="button" class="text-success btn-sm btn-icon" href="api/tiktok-v1/downloader?link=https://vm.tiktok.com/ZSR4nJLuD" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>								
+                	 </td>
+                   </tr>    
+                   <tr>
+                     <td><p style="font-size: 34px;" ><i class="bx bxl-tiktok w3-margin-right"></i></p></td>
+                	 <td>Tiktok downloader [V2]</td> 
+                 	 <td>link</td>
+                	 <td>Download Tiktok with result video</td>
+                     <td>Active✓</td>
+    			     <td><button type="button" onclick="sweet4()">Input</button></td>		
+                     <td>
+                	   <span ><a type="button" class="text-success btn-sm btn-icon" href="api/tiktok-v2/downloader?link=https://vm.tiktok.com/ZSR4nJLuD" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>								
+                	 </td>
+                   </tr>
+                   <tr>
+                     <td><p style="font-size: 34px;" ><i class="bx bxl-pinterest w3-margin-right"></i></p></td>
+                	 <td>Pinterest Downloader</td>
+                	 <td>link</td>
+                	 <td>Download image/video pinterest from link</td>
+                     <td>Active✓</td>
+    			     <td><button type="button" onclick="sweet5()">Input</button></td>		
+                     <td>
+                	   <span ><a type="button" class="text-success btn-sm btn-icon" href="api/pinterest/downloader?link=https://pin.it/4AQJpgE" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+    	             </td>
+                   </tr>
+                  </tbody>
+               </table>
+    <div class="pagination">
+      <label class="disabled" for="table_radio_-1"><a href="/">Back To Homepage</a></label>
+      <label class="active" for="table_radio_0" id="table_pager_0">1</label>
+      <label for="table_radio_1" id="table_pager_1">2</label>
+      <label for="table_radio_2" id="table_pager_2">3</label>
+      <label for="table_radio_3" id="table_pager_3">4</label>
+      <label for="table_radio_4" id="table_pager_4">5</label>
+      <label for="table_radio_1">Next &raquo;</label>
+    </div>
+    <input class="table-radio" type="radio" name="table_radio" id="table_radio_1"/>
+    <div class="table-display">List Api Random</div>
+            <table>
+              	<thead class="text-primary">
+                   <tr>
+              		<th scope="col"> ICONS </th>								
+               		<th scope="col"> FEATURES </th>
+              		<th scope="col"> PARAM </th>
+              		<th scope="col"> INFORMATION </th>
+            		<th scope="col"> STATUS </th>
+            		<th scope="col"> ACTION </th>
+                  </tr>
+             </thead>
+             <tbody>     							  
+              <tr>
+                 <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+            	 <td>Waifu</td>
+             	 <td>random</td>
+             	 <td>Random waifu image</td>
+                 <td>Active✓</td>
+    	         <td>
+             	   <span ><a type="button" class="text-success btn-sm btn-icon" href="api/random/waifu" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+            	 </td>
+              </tr>
+              <tr>
+                <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+                <td>Neko</td>
+                <td>random</td>
+                <td>Random neko image</td>
+                <td>Active✓</td>					
+                <td>
+        	        <span ><a type="button" class="text-success btn-sm btn-icon" href="api/random/neko" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>								
+                </td>
+              </tr>    
+              <tr>
+                 <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+             	 <td>Megumin</td>
+            	 <td>random</td>
+             	 <td>Random megumin image</td>
+                 <td>Active✓</td>					
+                 <td>
+              	   <span ><a type="button" class="text-success btn-sm btn-icon" href="api/random/megumin" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>								
+            	 </td>
+              </tr>                 
+              <tr>
+                 <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+             	 <td>Awoo</td>
+             	 <td>random</td>
+              	 <td>Random Awoo image</td>
+                 <td>Active✓</td>					
+                 <td>
+             	   <span ><a type="button" class="text-success btn-sm btn-icon" href="api/random/awoo" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+    			 </td>
+             </tr>
+          </tbody>
+         </table>
+    <div class="pagination">
+      <label for="table_radio_0">&laquo; Previous</label>
+      <label for="table_radio_0" id="table_pager_0">1</label>
+      <label class="active" for="table_radio_1" id="table_pager_1">2</label>
+      <label for="table_radio_2" id="table_pager_2">3</label>
+      <label for="table_radio_3" id="table_pager_3">4</label>
+      <label for="table_radio_4" id="table_pager_4">5</label>
+      <label for="table_radio_2">Next &raquo;</label>
+    </div>
+    <input class="table-radio" type="radio" name="table_radio" id="table_radio_2"/>
+    <div class="table-display"> List Api Searching 
+    </div>
+    <table>
+ 	<thead class="text-primary">
+      <tr>
+		<th scope="col"> ICONS </th>								
+		<th scope="col"> FEATURES </th>
+		<th scope="col"> PARAM </th>
+		<th scope="col"> INFORMATION </th>
+		<th scope="col"> STATUS </th>
+		<th scope="col"> ACTION </th>
+      </tr>
+    </thead>
+
+  <tbody>       
+    <tr>
+     <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+	 <td>Pinterest search v1 (json)</td>
+	 <td>query</td>
+   	 <td>Pinterest search with json</td>
+     <td>Active✓</td>					
+     <td>
+	   <span ><a type="button" class="text-success btn-sm btn-icon" href="api/pinterest?query=wallpaper" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>								
+	 </td>
+    </tr>    
+    <tr>
+     <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+	 <td>Pinterest search v2 (image)</td>
+	 <td>query</td>
+   	 <td>Pinterest search with image</td>
+     <td>Active✓</td>					
+     <td>
+	   <span ><a type="button" class="text-success btn-sm btn-icon" href="api/pinterest-v2?query=wallpaper" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>								
+	 </td>
+    </tr>    
+    <tr>
+     <td><p style="font-size: 34px;" ><i class="fa fa-youtube fa-fw w3-margin-right"></i></p></td>
+	 <td>Youtube Music</td>
+	 <td>query</td>
+   	 <td>Youtube music search</td>
+     <td>Active✓</td>					
+     <td>
+	   <span ><a type="button" class="text-success btn-sm btn-icon" href="api/youtube/search?query=Never%20Gona%20Give%20You%20Up" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>								
+	 </td>
+    </tr>
+    <tr>
+     <td><p style="font-size: 34px;" ><i class="fa fa-pinterest-square fa-fw w3-margin-right"></i></p></td>
+	 <td>Pinterest search v1 (json)</td>
+	 <td>query</td>
+   	 <td>Pinterest search with json</td>
+     <td>Active✓</td>					
+     <td>
+	   <span ><a type="button" class="text-success btn-sm btn-icon" href="api/pinterest?query=wallpaper" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>								
+	 </td>
+    </tr>    
+    <tr>
+     <td><p style="font-size: 34px;" ><i class="fa fa-wikipedia-w fa-fw w3-margin-right"></i></p></td>
+	 <td>Wikipedia search</td>
+	 <td>query</td>
+   	 <td>Wikipedia search🔍</td>
+     <td>Active✓</td>					
+     <td>
+	   <span ><a type="button" class="text-success btn-sm btn-icon" href="api/wiki/search?query=indonesia" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>								
+	 </td>
+    </tr>    
+    <tr>
+    </tbody>
+    </table>
+    <div class="pagination">
+      <label for="table_radio_1">&laquo; Previous</label>
+      <label for="table_radio_0" id="table_pager_0">1</label>
+      <label for="table_radio_1" id="table_pager_1">2</label>
+      <label class="active" for="table_radio_2" id="table_pager_2">3</label>
+      <label for="table_radio_3" id="table_pager_3">4</label>
+      <label for="table_radio_4" id="table_pager_4">5</label>
+      <label for="table_radio_3">Next &raquo;</label>
+    </div>
+    <input class="table-radio" type="radio" name="table_radio" id="table_radio_3"/>
+    <div class="table-display">List Api Tools </div>
+     <table>
+ 	<thead class="text-primary">
+      <tr>
+		<th scope="col"> ICONS </th>								
+		<th scope="col"> FEATURES </th>
+		<th scope="col"> PARAM </th>
+		<th scope="col"> INFORMATION </th>
+		<th scope="col"> STATUS </th>
+		<th scope="col"> ACTION </th>
+      </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+     <td><p style="font-size: 34px;" ><i class="fa fa-qrcode fa-fw w3-margin-right"></i></p></td>
+	 <td>Qr-Maker</td>
+	 <td>link</td>
+   	 <td> Qr-Code generator</td>
+     <td>Active✓</td>					
+     <td>
+	   <span ><a type="button" class="text-success btn-sm btn-icon" href="api/tools/qrcode-maker?link=https://instagram.com/rifza.p.p" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>								
+	 </td>
+    </tr>    
+    <tr>
+     <td><p style="font-size: 34px;" ><i class="fa-solid fa-globe"></i></p></td>
+	 <td>SS - Web</td>
+	 <td>link</td>
+   	 <td>Screenshot website</td>
+     <td>Active✓</td>					
+     <td>
+	   <span ><a type="button" class="text-success btn-sm btn-icon" href="api/tools/ssweb?link=https://api.azfir.repl.co" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>								
+	 </td>
+    </tr>    
+     </tbody>
+    </table>
+    <div class="pagination">
+      <label for="table_radio_2">&laquo; Previous</label>
+      <label for="table_radio_0" id="table_pager_0">1</label>
+      <label for="table_radio_1" id="table_pager_1">2</label>
+      <label for="table_radio_2" id="table_pager_2">3</label>
+      <label class="active" for="table_radio_3" id="table_pager_3">4</label>
+      <label for="table_radio_4" id="table_pager_4">5</label>
+      <label for="table_radio_4">Next &raquo;</label>
+    </div>
+    <input class="table-radio" type="radio" name="table_radio" id="table_radio_4"/>
+    <div class="table-display">Photo-Maker</div>
+        <table>
+ 	<thead class="text-primary">
+      <tr>
+		<th scope="col"> ICONS </th>								
+		<th scope="col"> FEATURES </th>
+		<th scope="col"> PARAM </th>
+		<th scope="col"> INFORMATION </th>
+		<th scope="col"> STATUS </th>
+		<th scope="col"> ACTION </th>
+      </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Undergrass</td>
+        <td>text</td>
+        <td>Photooxy Undergrass</td>
+        <td>Active✓</td>
+        <td>
+            <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=undergrass" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+        </td>
+    </tr>
+    <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Doublelove</td>
+        <td>text</td>
+        <td>Photooxy Doublelove</td>
+        <td>Active✓</td>
+        <td>    
+           <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=doublelove" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span> 
+        </td>
+    </tr>
+    <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Coffecup</td>
+        <td>text</td>
+        <td>Photooxy Coffecup</td>
+        <td>Active✓</td>
+        <td>    
+            <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=coffecup" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+        </td>
+    </tr>
+    <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Underwaterocean</td>
+        <td>text</td>
+        <td>Photooxy Underwaterocean</td>
+        <td>Active✓</td>
+        <td>        
+             <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=underwaterocean" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+        </td>
+    </tr>
+    <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Smokyneon</td>
+        <td>text</td>
+        <td>Photooxy Smokyneon</td>
+        <td>Active✓</td>
+        <td>            
+             <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=smokyneon" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+        </td>
+    </tr>
+    <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Starstext</td>
+        <td>text</td>
+        <td>Photooxy Starstext</td>
+        <td>Active✓</td>
+        <td>                
+             <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=starstext" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+        </td>
+    </tr>
+    <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Rainboweffect</td>
+        <td>text</td>
+        <td>Photooxy Rainboweffect</td>
+        <td>Active✓</td>
+        <td>                  
+             <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=rainboweffect" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+        </td>
+    </tr>
+    <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>balloontext</td>
+        <td>text</td>
+        <td>Photooxy Rainboweffect</td>
+        <td>Active✓</td>
+        <td>                      
+             <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=balloontext" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+        </td>
+    </tr>
+    <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Metalliceffect</td>
+        <td>text</td>
+        <td>Photooxy Metalliceffect</td>
+        <td>Active✓</td>
+        <td>                 
+             <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=metalliceffect" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+        </td>
+    </tr>
+    <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Embroiderytext</td>
+        <td>text</td>
+        <td>Photooxy Embroiderytext</td>
+        <td>Active✓</td>
+        <td>                     
+            <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=embroiderytext" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+        </td>
+    </tr>
+    <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Shadow</td>
+        <td>text</td>
+        <td>Photooxy Shadow</td>
+        <td>Active✓</td>
+        <td>                         
+             <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=shadow" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span> 
+        </td>
+    </tr>
+    <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Write</td>
+        <td>text</td>
+        <td>Photooxy Write</td>
+        <td>Active✓</td>
+        <td>                         
+             <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=write" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span> 
+        </td>
+    </tr>
+    <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Narutobanner</td>
+        <td>text</td>
+        <td>Photooxy Narutobanner</td>
+        <td>Active✓</td>
+        <td>                     
+             <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=narutobanner" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span> 
+        </td>
+    </tr>
+    <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Shinetext</td>
+        <td>text</td>
+        <td>Photooxy Shinetext</td>
+        <td>Active✓</td>
+        <td>    
+             <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=shinetext" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+        </td>
+    </tr>
+    <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>romantic</td>
+        <td>text</td>
+        <td>Photooxy Romantic</td>
+        <td>Active✓</td>
+        <td>        
+             <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=romantic" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span> 
+        </td>
+    </tr>
+    <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Love</td>
+        <td>text</td>
+        <td>Photooxy Love</td>
+        <td>Active✓</td>
+        <td>            
+            <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=love" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span> 
+        </td>
+    </tr>
+    <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Flamingtext</td>
+        <td>text</td>
+        <td>Photooxy Flamingtext</td>
+        <td>Active✓</td>
+        <td>            
+            <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=flamingtext" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+        </td>
+    </tr>
+    <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Stonetext</td>
+        <td>text</td>
+        <td>Photooxy Stonetext</td>
+        <td>Active✓</td>
+        <td>            
+             <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=stonetext" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+        </td>
+    </tr>
+    <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Writeart</td>
+        <td>text</td>
+        <td>Photooxy Writeart</td>
+        <td>Active✓</td>
+        <td>            
+             <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=writeart" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+        </td>
+    </tr>
+    <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Summertext</td>
+        <td>text</td>
+        <td>Photooxy Summertext</td>
+        <td>Active✓</td>
+        <td>
+            <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=summertext" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+        </td>
+    </tr>
+     <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Wolfmetaltext</td>
+        <td>text</td>
+        <td>Photooxy Wolfmetaltext</td>
+        <td>Active✓</td>
+        <td>
+             <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=wolfmetaltext" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+        </td>
+    </tr>
+     <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Nature3dtext</td>
+        <td>text</td>
+        <td>Photooxy Nature3dtext</td>
+        <td>Active✓</td>
+        <td>
+             <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=nature3dtext" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+        </td>
+    </tr>
+     <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>RosesText</td>
+        <td>text</td>
+        <td>Photooxy RosesText</td>
+        <td>Active✓</td>
+        <td>
+             <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=rosestext" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+        </td>
+    </tr>
+     <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>NatureTypography</td>
+        <td>text</td>
+        <td>Photooxy NatureTypography</td>
+        <td>Active✓</td>
+        <td>
+            <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=naturetypography" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+        </td>
+    </tr>
+     <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Quotesunder</td>
+        <td>text</td>
+        <td>Photooxy Quotesunder</td>
+        <td>Active✓</td>
+        <td>    
+            <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=quotesunder" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+        </td>
+    </tr>
+     <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Burnpaper</td>
+        <td>text</td>
+        <td>Photooxy Burnpaper</td>
+        <td>Active✓</td>
+        <td>    
+            <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=burnpaper" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+        </td>
+    </tr>
+     <tr>
+        <td><p style="font-size: 34px;" ><i class="fa fa-image fa-fw w3-margin-right"></i></p></td>
+        <td>Smoke</td>
+        <td>text</td>
+        <td>Photooxy Smoke</td>
+        <td>Active✓</td>
+        <td>    
+             <span ><a type="button" class="text-success btn-sm btn-icon" href="api/photo-maker/photooxy?text=Azfir&theme=smoke" target="_blank" rel="nofollow">Try<i class="fa fa-play"></i></a></span>
+        </td>
+    </tr>                  
+     </tbody>
+    </table>
+    <div class="pagination">
+      <label for="table_radio_3">&laquo; Previous</label>
+      <label for="table_radio_0" id="table_pager_0">1</label>
+      <label for="table_radio_1" id="table_pager_1">2</label>
+      <label for="table_radio_2" id="table_pager_2">3</label>
+      <label for="table_radio_3" id="table_pager_3">4</label>
+      <label class="active" for="table_radio_4" id="table_pager_4">5</label>
+      <label class="disabled" for="table_radio_5">Next &raquo;</label>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+
+ <!----===== Input Button template =====---->      
+ <template id="my-template"> 
+  <swal-html>
+    <form action="api/youtubemp3/downloader" method="GET">
+            <input type="text" name="link" placeholder="Input link..." autocomplete="off" id="input-search" required size="5">
+            <input onclick="Swal.showLoading()" style="background: aqua;" type="submit" value="Submit">   
+        </form>   
+  </swal-html>  
+   <swal-title>
+    Youtube-MP3
+  </swal-title>
+ 
+  <swal-param name="allowEscapeKey" value="false" />
+  <swal-param
+    name="customClass"
+    value='{ "popup": "my-popup" }' />
+</template>
+
+ <template id="my-template2"> 
+  <swal-html>
+    <form action="api/multi/downloader" method="GET">
+            <input style="outline: none" type="text" name="link" placeholder="Input link..." autocomplete="off" id="input-search" required size="5">
+            <input onclick="Swal.showLoading()" style="background: aqua;" type="submit" value="Submit">   
+        </form>   
+  </swal-html>  
+   <swal-title>
+    Multi
+  </swal-title>
+ 
+  <swal-param name="allowEscapeKey" value="false" />
+  <swal-param
+    name="customClass"
+    value='{ "popup": "my-popup" }' />
+</template>
+
+ <template id="my-template3"> 
+  <swal-html>
+    <form action="api/tiktok-v1/downloader" method="GET">
+            <input type="text" name="link" placeholder="Input link..." autocomplete="off" id="input-search" required size="5">
+            <input onclick="Swal.showLoading()" style="background: aqua;" type="submit" value="Submit">   
+        </form>   
+  </swal-html>  
+   <swal-title>
+    Tiktok-V1 
+  </swal-title>
+ 
+  <swal-param name="allowEscapeKey" value="false" />
+  <swal-param
+    name="customClass"
+    value='{ "popup": "my-popup" }' />
+</template>
+
+ <template id="my-template4"> 
+  <swal-html>
+    <form action="api/tiktok-v2/downloader" method="GET">
+            <input type="text" name="link" placeholder="Input link..." autocomplete="off" id="input-search" required size="5">
+            <input onclick="Swal.showLoading()" style="background: aqua;" type="submit" value="Submit">   
+        </form>   
+  </swal-html>  
+   <swal-title>
+    Tiktok-V2 
+  </swal-title>
+ 
+  <swal-param name="allowEscapeKey" value="false" />
+  <swal-param
+    name="customClass"
+    value='{ "popup": "my-popup" }' />
+</template>
+
+ <template id="my-template5"> 
+  <swal-html>
+    <form action="api/pinterest/downloader" method="GET">
+            <input type="text" name="link" placeholder="Input link..." autocomplete="off" id="input-search" required size="5">
+            <input onclick="Swal.showLoading()" style="background: aqua;" type="submit" value="Submit">   
+        </form>   
+  </swal-html>  
+   <swal-title>
+    Pinterest Download 
+  </swal-title>
+ 
+  <swal-param name="allowEscapeKey" value="false" />
+  <swal-param
+    name="customClass"
+    value='{ "popup": "my-popup" }' />
+</template>
+
+
+ <template id="my-template6"> 
+  <swal-html>
+    <form action="api/youtubemp4/downloader" method="GET">
+            <input style="outline: none" type="text" name="link" placeholder="Input link..." autocomplete="off" id="input-search" required size="5">
+             <select id="input-search" name="quality" size="1" placeholder="quality">
+               <option value="360">360p</option>
+               <option value="480">480p</option>
+               <option value="720">720p</option>
+               <option value="1080">1080p</option>
+            </select><br><br>
+            <input onclick="Swal.showLoading()" style="background: aqua;" type="submit" value="Submit">   
+        </form>   
+  </swal-html>  
+   <swal-title>
+    YoutubeMP4
+  </swal-title>
+ 
+  <swal-param name="allowEscapeKey" value="false" />
+  <swal-param
+    name="customClass"
+    value='{ "popup": "my-popup" }' />
+  </template>
+
+ <template id="my-template7"> 
+  <swal-html>
+    <form action="api/facebook/downloader" method="GET">
+            <input type="text" name="link" placeholder="Input link..." autocomplete="off" id="input-search" required size="5">
+            <input onclick="Swal.showLoading()" style="background: aqua;" type="submit" value="Submit">   
+        </form>   
+  </swal-html>  
+   <swal-title>
+    Facebook Download
+  </swal-title>
+ 
+  <swal-param name="allowEscapeKey" value="false" />
+  <swal-param
+    name="customClass"
+    value='{ "popup": "my-popup" }' />
+</template>
+<!----===== End • Input Button template =====---->   
+
+    </section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+$(document).ready(function () {
+            $(".preloader").fadeOut(5000);
+})
+</script>  
+    <script>
+    function sweet1() {
+     Swal.fire({
+     template: '#my-template',
+     confirmButtonText: 'Cencel',
+    })
+   }
+   function sweet2() {
+     Swal.fire({
+     template: '#my-template2',
+     confirmButtonText: 'Cencel',
+    })
+   }
+   function sweet3() {
+     Swal.fire({
+     template: '#my-template3',
+     confirmButtonText: 'Cencel',
+    })
+   }
+   function sweet4() {
+     Swal.fire({
+     template: '#my-template4',
+     confirmButtonText: 'Cencel',
+    })
+   }
+     function sweet5() {
+     Swal.fire({
+     template: '#my-template5',
+     confirmButtonText: 'Cencel',
+    })
+   }
+   
+    function sweet6() {
+     Swal.fire({
+     template: '#my-template6',
+     confirmButtonText: 'Cencel',
+    })
+   }
+    function sweet7() {
+     Swal.fire({
+     template: '#my-template7',
+     confirmButtonText: 'Cencel',
+    })
+   }   
+  </script>
+
+  
+</body>
+</html>
